@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain View Dental Clinic</title>
+    <style>
+        :root { --navy: #1a2a44; --slate: #4a5568; --white: #ffffff; --light: #f7fafc; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; color: var(--slate); line-height: 1.6; background: var(--white); }
+        h1, h2, h3 { font-family: 'Georgia', serif; color: var(--navy); }
+        nav { background: var(--navy); padding: 1rem; position: sticky; top: 0; display: flex; justify-content: center; gap: 20px; z-index: 1000; }
+        nav a { color: white; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+        .hero { background: var(--light); padding: 60px 20px; text-align: center; border-bottom: 5px solid var(--navy); }
+        .container { max-width: 1000px; margin: auto; padding: 40px 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+        .card { border: 1px solid #e2e8f0; padding: 20px; border-radius: 8px; text-align: center; background: white; }
+        .banner { background: var(--navy); color: white; padding: 40px; text-align: center; margin: 40px 0; border-radius: 8px; }
+        .emergency { border-left: 5px solid #e53e3e; background: #fff5f5; padding: 20px; margin: 20px 0; }
+        footer { background: var(--light); text-align: center; padding: 20px; font-size: 0.8rem; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        td { border-bottom: 1px solid #eee; padding: 8px; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#about">ABOUT</a>
+    <a href="#services">SERVICES</a>
+    <a href="#staff">STAFF</a>
+    <a href="#contact">CONTACT</a>
+</nav>
+
+<div class="hero">
+    <h1>Mountain View Dental Clinic</h1>
+    <p><i>"Creating Confident Healthy Smiles"</i></p>
+</div>
+
+<div class="container" id="about">
+    <h2>Welcome to Our Family Practice</h2>
+    <p>Located in the beautiful Northeastern United States, we cater to both children and adults with a focus on family-oriented care. Dr. Josh Michailoff (DDS, University of Texas Health Science Center) has led our clinic for 10 years.</p>
+    
+    <div class="emergency">
+        <h3>Emergency Care</h3>
+        <p>Same day care is provided for most emergencies. After hours, Dr. Michailoff may be paged at 607-436-2532.</p>
+    </div>
+</div>
+
+<div class="container" id="services">
+    <h2>Our Services</h2>
+    <ul class="grid" style="list-style:none; padding:0;">
+        <li>✔ Teeth Cleaning & Fluoride</li>
+        <li>✔ Crowns, Bridges & Fillings</li>
+        <li>✔ Cosmetic Bonding & Veneers</li>
+        <li>✔ Root Canals & Extractions</li>
+        <li>✔ Partial & Complete Dentures</li>
+    </ul>
+
+    <div class="banner">
+        <h2>Dental Care Monthly Payment Plan</h2>
+        <p>We are proud to offer a new way to alleviate financial burden. Established patients can now make manageable monthly payments rather than paying the entire fee at once.</p>
+    </div>
+</div>
+
+<div class="container" id="staff">
+    <h2>Meet Our Experts</h2>
+    <div class="grid">
+        <div class="card"><h3>Dr. Josh Michailoff</h3><p>Fellow in the Academy of General Dentistry and ADA Member.</p></div>
+        <div class="card"><h3>Dr. Ashok Patmon</h3><p>New Associate. Dedicated to gentle pediatric care and family comfort.</p></div>
+        <div class="card"><h3>Clyde McGill</h3><p>Hygienist (2 years). Always ready to help your family with a smile.</p></div>
+        <div class="card"><h3>Dianne Hamrick</h3><p>Assistant (6 years). 15 years of industry experience.</p></div>
+        <div class="card"><h3>Corey Passey</h3><p>Office Manager (6 months). Here to help with your scheduling and billing.</p></div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2>Visit Us</h2>
+    <p>108 Ravine Parkway, Oneonta, NY 13820<br>Phone: 607-436-3389</p>
+    <h3>Hours of Operation</h3>
+    <table>
+        <tr><td>Monday - Friday</td><td>9:00 a.m. - 5:00 p.m.</td></tr>
+        <tr><td>Saturday - Sunday</td><td>CLOSED</td></tr>
+    </table>
+</div>
+
+<footer>
+    <p>Useful Links: <a href="https://www.ada.org">American Dental Association</a> | <a href="https://www.colgate.com">Colgate Oral Care</a></p>
+    <p>&copy; 2026 Mountain View Dental Clinic</p>
+</footer>
+
+</body>
+</html>
